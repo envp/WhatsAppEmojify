@@ -12,7 +12,7 @@ You need to have tampermonkey / greasemonkey or some other way to install usersc
 [Click here to install](https://github.com/vaibhav-y/WhatsAppText2Emoji/raw/master/whatsapp_text2emoji.user.js)
 
 ## Notes
-I've only tested this on Google Chrome for Windows (Version 51.0.2704.103 m), but it should work on all major browsers that support userscripts.
+I've only tested this on Google Chrome for Windows (Version 52.0.2743.82 m), but it should work on all major browsers that support userscripts.
 
 ## Contribute!
 If you want to add some emojis or features to this, feel free to drop in a pull request. Bonus points if you have topic branches and legible code!
