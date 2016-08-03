@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @version      0.2
+// @version      0.3
 // @description  Simple script that converts text smileys to emojis
 // @author       Vaibhav Yenamandra
 // @match        https://web.whatsapp.com/
