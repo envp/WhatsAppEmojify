@@ -51,8 +51,8 @@ function text_emoji_main(jNode) {
             s = smileys[s_idx];
             if(jNode.text().indexOf(s) >= 0) {
                 jNode.text(jNode.text().replace(s, emoji_map[s]) + " ");
+                placeCaretAtEnd(jNode.get(0));
             }
-            placeCaretAtEnd(jNode.get(0));
         }
     });
 }
