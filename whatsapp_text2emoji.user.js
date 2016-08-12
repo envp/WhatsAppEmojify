@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @version      0.3
+// @version      0.3.1
 // @description  Simple script that converts text smileys to emojis
 // @author       Vaibhav Yenamandra
 // @match        https://web.whatsapp.com/
@@ -24,7 +24,9 @@ var emoji_map = {
     ':P'  : "😛",
     ';P'  : "😜",
     'XP'  : "😝",
-    'B)'  : "😎"
+    'B)'  : "😎",
+    ':('  : "😞",
+    ":'(" : "☹"
 };
 
 var smileys = Object.keys(emoji_map);
