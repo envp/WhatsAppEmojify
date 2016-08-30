@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         WhatsApp Text2Emoji
-// @namespace    https://github.com/vaibhav-y/WhatsAppText2Emoji/
+// @namespace    http://tampermonkey.net/
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @version      0.3.1
+// @version      0.3.2
 // @description  Simple script that converts text smileys to emojis
 // @author       Vaibhav Yenamandra
 // @match        https://web.whatsapp.com/
@@ -26,7 +26,16 @@ var emoji_map = {
     'XP'  : "😝",
     'B)'  : "😎",
     ':('  : "😞",
-    ":'(" : "☹"
+    ":'(" : "☹",
+    ":O"  : "😮",
+    "-_-" : "😑",
+    ">_<" : "😣",
+    "X_X" : "😲",
+    ":S"  : "😨",
+    ";_;" : "😭",
+    "T_T" : "😭",
+    "^_^;": "😅",
+    "-_-;": "😓"
 };
 
 var smileys = Object.keys(emoji_map);
