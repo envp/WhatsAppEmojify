@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         WhatsApp Text2Emoji
-// @namespace    http://tampermonkey.net/
+// @name         WhatsAppEmojify
+// @namespace    https://github.com/vaibhav-y/WhatsAppText2Emoji/
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @version      0.3.2
+// @version      0.3.4
 // @description  Simple script that converts text smileys to emojis
 // @author       Vaibhav Yenamandra
 // @match        https://web.whatsapp.com/
